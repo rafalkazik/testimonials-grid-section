@@ -15,7 +15,7 @@ html {
     display: grid;
     justify-content: center;
     align-items: center;
-    // padding: 50px 0;
+    padding: 25px 0;
     background-color: $lightGrayBlue;
     min-height: 100vh;
 
@@ -81,7 +81,7 @@ html {
 
 // Containers 1-5
 .container__div--first {
-  background: url(./images/bg-pattern-quotation.svg), $moderateViolet;
+  background: url(../images/bg-pattern-quotation.svg), $moderateViolet;
   background-repeat: no-repeat;
   background-position: 90% 0;
   color: #fff;

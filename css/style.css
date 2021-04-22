@@ -19,6 +19,7 @@ html body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 25px 0;
   background-color: #ecf2f8;
   min-height: 100vh;
 }
@@ -85,7 +86,7 @@ html body .container .container__div {
 }
 
 .container__div--first {
-  background: url(./images/bg-pattern-quotation.svg), #7541c8;
+  background: url(../images/bg-pattern-quotation.svg), #7541c8;
   background-repeat: no-repeat;
   background-position: 90% 0;
   color: #fff;
