@@ -30,6 +30,7 @@ html {
         flex-direction: column;
         border-radius: 8px;
         padding: 2.5rem 3rem;
+        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.04));
       }
     }
   }
@@ -45,20 +46,22 @@ html {
     width: 30px;
     height: 30px;
     margin-right: 1.5rem;
-
-    .container__header--text {
-      align-items: center;
-    }
+  }
+  .container__header__img--border {
+    border: 2px solid $borderViolet;
+  }
+  .container__header--text {
+    align-items: center;
   }
 }
 
 .container__header {
   .container__name {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 500;
   }
   .container__graduate {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     opacity: 0.5;
   }
@@ -74,7 +77,7 @@ html {
 // Containers quote
 
 .container__quote {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.618;
   opacity: 0.7;
 }

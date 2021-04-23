@@ -41,6 +41,8 @@ html body .container .container__div {
           flex-direction: column;
   border-radius: 8px;
   padding: 2.5rem 3rem;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.04));
+          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.04));
 }
 
 .container__header {
@@ -56,19 +58,23 @@ html body .container .container__div {
   margin-right: 1.5rem;
 }
 
-.container__header .container__header__img .container__header--text {
+.container__header .container__header__img--border {
+  border: 2px solid #a777f3;
+}
+
+.container__header .container__header--text {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .container__header .container__name {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
 .container__header .container__graduate {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   opacity: 0.5;
 }
@@ -80,7 +86,7 @@ html body .container .container__div {
 }
 
 .container__quote {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.618;
   opacity: 0.7;
 }
