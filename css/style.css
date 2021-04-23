@@ -62,12 +62,6 @@ html body .container .container__div {
   border: 2px solid #a777f3;
 }
 
-.container__header .container__header--text {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .container__header .container__name {
   font-size: 1.4rem;
   font-weight: 500;
@@ -165,6 +159,19 @@ html body .container .container__div {
     -ms-grid-row-span: 1;
     grid-row: 3/4;
   }
+  .container__header .container__header__img {
+    margin-top: 2px;
+  }
+  .container__header .container__name {
+    font-size: 1.5rem;
+  }
+  .container__header .container__graduate {
+    font-size: 1.3rem;
+  }
+}
+
+.container__quote {
+  font-size: 1.45rem;
 }
 
 @media (min-width: 1440px) {
@@ -175,7 +182,7 @@ html body .container .container__div {
         grid-template-rows: repeat(2, 1fr);
     width: 70vw;
     max-width: 80vw;
-    max-width: 1200px;
+    max-width: 1300px;
   }
   body .container .container__div--first {
     -ms-grid-column: 1;
